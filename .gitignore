@@ -1,0 +1,43 @@
+ # Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+*.pyo
+*.pdb
+*.egg-info/
+.env
+.venv/
+env/
+venv/
+
+# SQLite DB
+db.sqlite3
+
+# Alembic
+alembic/versions/__pycache__/
+
+# VSCode / IDEs
+.vscode/
+.idea/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# pytest
+htmlcov/
+.tox/
+.pytest_cache/
+.coverage
+.cache
+
+# Mypy / coverage / test artifacts
+.mypy_cache/
+coverage.xml
+*.cover
